@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <UButton label="buton" />
-    <div class="i-heroicons-user"></div>
+  <div class="fixed top-0 left-0 w-full h-full flex justify-center items-center">
+    <NuxtPage />
   </div>
 </template>
-
