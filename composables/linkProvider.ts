@@ -5,7 +5,7 @@ export const linkProvider = () => {
       avatar: {
         src: 'https://github.com/byagmur.png', // github resmini otomatik olarak gösteriyor. Profil resmi yüklemek isteyebilirsin :)
       },
-      click: () => window.open('https://github.com/TarikKilic248')
+      click: () => window.open('https://github.com/byagmur')
     }],
     [{
       label: 'Home',
