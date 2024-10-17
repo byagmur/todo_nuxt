@@ -1,8 +1,19 @@
+<script setup lang="ts">
+definePageMeta({
+  name: 'home',
+  path: '/',
+})
+
+// GÖREV 'istediğin zaman yapabilirsin'
+// bu sayfa için görevin kendini burda başarılı bir şekilde tanıtman
+// değerlendireceğim şey tasarım ve doğru component kullanımı olacak
+</script>
+
 <template>
-  <div class="flex flex-col gap-6">
-    <UButton label="Artık Çalışıyor :3" loading />
-    <div class="animate-bounce">
-      Ve Eslint Yükledim !
+  <NuxtLayout>
+    <div class="w-full h-full flex justify-center items-center gap-6">
+      <ButtonGiant label="Todo List" @click="navigateTo({ name: 'todo' })" />
+      <ButtonGiant label="Pokemon List" @click="navigateTo({ name: 'pokemon' })" />
     </div>
-  </div>
+  </NuxtLayout>
 </template>
